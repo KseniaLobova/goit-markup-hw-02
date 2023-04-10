@@ -1,0 +1,133 @@
+:root {
+  --primary-color: #434455;
+  --title-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --background-hover-btn: #404bbf;
+  --text-footer: #f4f4fd;
+  --header-color: #ffffff;
+}
+
+body {
+  color: var(--primary-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* header */
+
+.link-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--accent-color);
+}
+.logo-text {
+  color: var(--title-color);
+}
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--background-hover-btn);
+}
+.contacts-link {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+/* section 1  */
+.hero {
+  background-color: var(--title-color);
+}
+.caption {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+.order-button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--header-color);
+  background-color: var(--accent-color);
+}
+.order-button:hover,
+.order-button:focus {
+  color: var(--header-color);
+  background-color: var(--background-hover-btn);
+}
+
+/* section 2 */
+.subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.feature-title {
+  color: var(--title-color);
+}
+/* section 3 */
+
+/* section 4 our team */
+.team {
+  background-color: var(--text-footer);
+}
+/* footer */
+.footer {
+  background-color: var(--title-color);
+}
+.footer-text {
+  color: var(--text-footer);
+}
+.logo-second {
+  color: var(--header-color);
+}
+
+/* portfolio */
+.portfolio-btm {
+  color: var(--accent-color);
+  background-color: #e7e9fc;
+}
+.portfolio-btm:hover,
+.portfolio-btm:focus {
+  color: var(--header-color);
+  background-color: var(--background-hover-btn);
+}
